@@ -18,15 +18,16 @@ function calculate() {
         negative_numerator = (-1*b) - absolutedescriminantValue;
             positive_answer = positive_numerator/denominator
             negative_answer = negative_numerator/denominator
-        console.log("The Roots are x =",positive_answer + " or X =",negative_answer)
-        answerDiv.textContent = "The Roots are x =" + positive_answer + " or X =" + negative_answer;
+            root1 = positive_numerator.toFixed(3);
+            root2 = negative_answer.toFixed(3);
+        answerDiv.textContent = "The Roots are x =" + root1 + " or X =" + root2;
      } else {
         first_Answer = (-1*b)/denominator;
         positive_second_term = (squareroot_absolutedescriminantValue/denominator)+"i";
         negative_second_term = ((-1*squareroot_absolutedescriminantValue)/denominator)+"i";
-        console.log("The Roots are x =",first_Answer +"+",positive_second_term , " or X =", first_Answer + negative_second_term)
-        answerDiv.textContent = "The Roots are x = " + first_Answer +"+" + positive_second_term + " or X = " + first_Answer + negative_second_term;
-
+        root1 = first_Answer + " + " + positive_second_term;
+        root2 = first_Answer  +  negative_second_term;
+        answerDiv.textContent = "The Roots are x = " + root1 + " OR " + root2;
      }
 }
 
