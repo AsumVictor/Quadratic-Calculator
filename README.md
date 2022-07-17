@@ -15,7 +15,7 @@ Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in brows
 ```
 
 ## Demo
-[Click here]() to View live page
+[Click here](https://asumvictor.github.io/Quadratic-Calculator/) to View live page
 
 
 ## Build With
@@ -42,7 +42,7 @@ Contributions, issues, and feature requests are welcome!
 
 Please adhere to this project's `code of conduct`.
 
-Feel free to check the issues [Page](..)
+Feel free to check the issues [Page](https://github.com/AsumVictor/Quadratic-Calculator/issues)
 
 
 ## Show your support
