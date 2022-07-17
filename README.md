@@ -8,7 +8,10 @@
 ```
 step 1: Clone this repo locally using git in the command line and the following command
 
-git clone https://github.com/AsumVictor/Quadratic-Calculator.git or git@github.com:AsumVictor/Quadratic-Calculator.git
+git clone https://github.com/AsumVictor/Quadratic-Calculator.git 
+
+git clone git@github.com:AsumVictor/Quadratic-Calculator.git
+
 Alternatively, you can just download the complete zip file and extract the folder in your directory
 
 Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in browser.
