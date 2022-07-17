@@ -14,12 +14,29 @@
             <h1>Quadratic equation Calculator</h1>
         <p>Quadratic Equation has general Formulae <strong>Ax<sup>2</sup> + Bx + C = 0</strong></p>
          </article>
-         <section class="row">
-             <div class="col-12 col-sm-6">
+         <section class="row d-flex workspace " >
+             <div class="side col-12 col-md-6">
                 <h1>Calculator</h1>
+             <div class="inputs_labels">
+                 <div class="terms">
+                    <input type="number" id="a" placeholder="A"><span><strong>x<sup>2</sup></strong></span>
+                </div>
+                <div class="terms">
+                    <input type="number" id="b" placeholder="B"><span><strong>x</strong></span>
+                </div>
+                <div class="terms">
+                    <input type="number" id="c" placeholder="C">
+                </div>
              </div>
-             <div class="col-12 col-sm-6">
-                <h1>Calculator</h1>
+             <div class="answer_container">
+                <div class="root ">
+                    <p>The Roots are X = <span id="root1"></span> OR <span id="root2"></span></p>
+                </div>
+             </div>
+             <button id="calculate">SOlVE</button>
+             </div>
+             <div class="side col-12 col-md-6">
+                <h1>History</h1>
              </div>
          </section>
     </main>

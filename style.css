@@ -5,11 +5,11 @@
 
 body{
     display: flex;
-    background-color: rgb(41, 44, 83);
     justify-content:center;
     align-items: center;
     display: flex;
     height: 100vh;
+    overflow-y: hidden;
 
 }
 
@@ -19,6 +19,8 @@ main{
     height: 100%;
     width: 100%;
     flex-direction: column;
+    overflow-y: hidden;
+
 }
 
 article{
@@ -26,4 +28,58 @@ article{
     align-items: center;
     flex-direction: column;
 }
+
+.workspace{
+    justify-content: center;
+    align-items: center;
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    height: 1cm;
+    width: 2cm;
+    border-radius: 8px;
+    text-align: center;
+}
+ 
+.terms{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+
+.terms span{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+button{
+    height: 1cm;
+    width: 3cm;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.root{
+    display: none;
+ }
+
+ .root.show{
+    display: block;
+ }
+
+.root p {
+   font-size: 22px;
+}
+
+.root p span{
+    color: red;
+ }
 
