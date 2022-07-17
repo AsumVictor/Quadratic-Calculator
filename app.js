@@ -35,4 +35,9 @@ function calculate() {
      answer2.textContent = root2;
 }
 
+
+
+
+
+
 btn.addEventListener("click",calculate);
