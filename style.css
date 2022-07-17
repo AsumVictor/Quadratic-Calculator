@@ -21,8 +21,9 @@ main{
     flex-direction: column;
 }
 
-.all{
-    background-color: red;
-    padding: 10px;
+article{
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
 }
 
