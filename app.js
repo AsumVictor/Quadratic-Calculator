@@ -3,6 +3,8 @@ const answer1 = document.getElementById("root1");
 const answer2 = document.getElementById("root2");
 const  answerDiv = document.querySelector('.root');
 
+
+
 function calculate() {
     let a = document.getElementById("a").value;
    let  b = document.getElementById("b").value;
@@ -32,11 +34,15 @@ function calculate() {
      answerDiv.classList.add("show");
      answer1.textContent = root1;
      answer2.textContent = root2;
+     document.querySelector('.eqn').innerHTML = root1 + 'X<sup>sak</sup>';
+}
+
+function addHistory() {
+   
 }
 
 
 
 
-
-
 btn.addEventListener("click",calculate);
+btn.addEventListener("click",addHistory);
