@@ -114,8 +114,15 @@ button{
     max-height: 6cm;
     overflow-y: scroll;
     width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+
 }
 
 .answer{
    border-radius: 10px;
+   margin-top: 10px;
+   padding: 10px;
+   border: 2px solid gray;
 }
