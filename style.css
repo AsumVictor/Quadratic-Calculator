@@ -8,9 +8,6 @@ body{
     justify-content:center;
     align-items: center;
     display: flex;
-    height: 100vh;
-    overflow-y: hidden;
-
 }
 
 main{
@@ -31,7 +28,7 @@ article{
 
 .workspace{
     justify-content: center;
-    align-items: center;
+    align-items: space-around;
 }
 
 .side{
@@ -106,3 +103,26 @@ button{
     color: red;
  }
 
+.history-div{
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 10cm;
+}
+
+.history{
+    max-height: 6cm;
+    overflow-y: scroll;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+
+}
+
+.answer{
+   border-radius: 10px;
+   margin-top: 10px;
+   padding: 10px;
+   border: 2px solid gray;
+}
