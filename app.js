@@ -15,7 +15,6 @@ function calculate() {
 
     // for real roots
      if (descriminantValue>=0) {
-        console.log("Squre root Discriminant: ",squareroot_absolutedescriminantValue);
         positive_numerator = (-1*b) + absolutedescriminantValue;
         negative_numerator = (-1*b) - absolutedescriminantValue;
             positive_answer = positive_numerator/denominator
